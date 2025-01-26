@@ -1,6 +1,7 @@
 const io = require("socket.io")(process.env.PORT || 3002, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://chat-reaction.vercel.app",
+    // origin: "http://localhost:3000",
   },
 });
 

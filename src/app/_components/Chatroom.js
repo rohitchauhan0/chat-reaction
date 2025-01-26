@@ -7,7 +7,8 @@ import { motion } from 'framer-motion';
 import { Emoji } from '@/data/Emoji';
 
 const Chatroom = ({roomId}) => {
-    const socket = useMemo(() => io("http://localhost:3002"), []);
+    const socket = useMemo(() => io("https://chat-reaction.onrender.com"), []);
+    // const socket = useMemo(() => io("http://localhost:3002"), []);
     const [message, setMessage] = useState("");
     const [chat, setChat] = useState([]);
     const [userId, setUserId] = useState("");

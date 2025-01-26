@@ -22,6 +22,7 @@ const Page = () => {
         <div className='absolute -top-8 -right-40  bg-gradient-to-r from-pink-100 to-red-100 w-[500px] 
         h-[500px] rounded-full blur-3xl opacity-30 '></div>
       </div>
+      
      <div className='flex items-center flex-col space-y-6' >
      <button className='bg-gradient-to-r px-10 w-full from-red-500 z-30 to-red-700
       text-white  py-3 rounded' onClick={handleCreateRoom}>Create a room</button>
